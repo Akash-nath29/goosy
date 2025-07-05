@@ -20,7 +20,7 @@ Meet Goosy, the sassy AI that turns your messy code into production-ready master
 <tr>
 <td width="33%">
 
-### �️ **Bug Detective Mode**
+### 🐛 **Bug Detective Mode**
 Goosy sniffs out vulnerabilities like a bloodhound with a computer science degree. Your security flaws don't stand a chance against our AI Sherlock Holmes!
 
 *"Elementary, my dear Watson... your SQL injection is showing."* 🔍
@@ -36,7 +36,7 @@ Select any code block and watch Goosy judge it harder than Gordon Ramsay judges 
 </td>
 <td width="33%">
 
-### � **Refactoring Wizard**
+### 🧙‍♂️ **Refactoring Wizard**
 One click and POOF! Your messy code transforms into something so clean, Marie Kondo would weep tears of joy. Original code preserved as comments (because we're not monsters).
 
 *"Abracadabra! Your code no longer looks like it was written by caffeinated squirrels!"* 🎩
@@ -106,7 +106,7 @@ One click and POOF! Your messy code transforms into something so clean, Marie Ko
 | **Akash** | **Abhinaba** | **Ayush** | **Rohit** |
 | AI Overlord | Neural Necromancer | Stack Slayer | Code Dictator |
 | *"I speak Robot"* 🤖 | *"I raise the dead... bugs"* 💀 | *"Full Stack? More like Full Snack!"* 🍕 | *"Coffee is my programming language"* ☕ |
-| [![LinkedIn](https://img.shields.io/badge/LinkedIn-0077B5?style=flat&logo=linkedin&logoColor=white)](https://linkedin.com/in/akash-dev) [![GitHub](https://img.shields.io/badge/GitHub-100000?style=flat&logo=github&logoColor=white)](https://github.com/akash-dev) | [![LinkedIn](https://img.shields.io/badge/LinkedIn-0077B5?style=flat&logo=linkedin&logoColor=white)](https://linkedin.com/in/abhinaba-dev) [![GitHub](https://img.shields.io/badge/GitHub-100000?style=flat&logo=github&logoColor=white)](https://github.com/abhinaba-dev) | [![LinkedIn](https://img.shields.io/badge/LinkedIn-0077B5?style=flat&logo=linkedin&logoColor=white)](https://linkedin.com/in/ayush-dev) [![GitHub](https://img.shields.io/badge/GitHub-100000?style=flat&logo=github&logoColor=white)](https://github.com/ayush-dev) | [![LinkedIn](https://img.shields.io/badge/LinkedIn-0077B5?style=flat&logo=linkedin&logoColor=white)](https://linkedin.com/in/rohit-dev) [![GitHub](https://img.shields.io/badge/GitHub-100000?style=flat&logo=github&logoColor=white)](https://github.com/rohit-dev) |
+| [![LinkedIn](https://img.shields.io/badge/LinkedIn-0077B5?style=flat&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/akash-nath29/) [![GitHub](https://img.shields.io/badge/GitHub-100000?style=flat&logo=github&logoColor=white)](https://github.com/Akash-nath29) | [![LinkedIn](https://img.shields.io/badge/LinkedIn-0077B5?style=flat&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/abhinaba-biswas/) [![GitHub](https://img.shields.io/badge/GitHub-100000?style=flat&logo=github&logoColor=white)](https://github.com/abhinaba-biswas) | [![LinkedIn](https://img.shields.io/badge/LinkedIn-0077B5?style=flat&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/dhuaayush/) [![GitHub](https://img.shields.io/badge/GitHub-100000?style=flat&logo=github&logoColor=white)](https://github.com/AyushDhua) | [![LinkedIn](https://img.shields.io/badge/LinkedIn-0077B5?style=flat&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/rohit-debnath/) [![GitHub](https://img.shields.io/badge/GitHub-100000?style=flat&logo=github&logoColor=white)](https://github.com/rohit-Dnath/) |
 
 *These legends turned their late-night coding sessions and existential dread into pure magic!* ✨
 
