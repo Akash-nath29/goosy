@@ -2,7 +2,7 @@
   "name": "goosy",
   "displayName": "goosy",
   "description": "Write cleaner, safer code with your feathered sidekick.",
-  "version": "1.3.5",
+  "version": "0.0.14",
   "publisher": "null0x",
   "icon": "goosy.png",
   "repository": {
@@ -49,43 +49,6 @@
       {
         "command": "goosy.test",
         "title": "goosy: Test Command"
-      }
-    ],
-    "keybindings": [
-      {
-        "command": "goosy.analyzeDocument",
-        "when": "editorTextFocus",
-        "win": "alt+g",
-        "linux": "alt+g",
-        "mac": "option+g"
-      },
-      {
-        "command": "goosy.refactorSelection",
-        "when": "editorTextFocus",
-        "win": "alt+r",
-        "linux": "alt+r",
-        "mac": "option+r"
-      },
-      {
-        "command": "goosy.analyzeSelection",
-        "when": "editorTextFocus",
-        "win": "alt+s",
-        "linux": "alt+s",
-        "mac": "option+s"
-      },
-      {
-        "command": "goosy.checkComplexitySelection",
-        "when": "editorTextFocus",
-        "win": "alt+c",
-        "linux": "alt+c",
-        "mac": "option+c"
-      },
-      {
-        "command": "goosy.clearDecorations",
-        "when": "editorTextFocus",
-        "win": "alt+x",
-        "linux": "alt+x",
-        "mac": "option+x"
       }
     ],
     "menus": {

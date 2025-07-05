@@ -45,3 +45,10 @@ Make your code more readable and performant without losing the original. Refacto
 
 Curious how it works?
 [Click here to watch Goosy in action](https://youtu.be/T_8CScm3SBk?si=M3Vp3SYvG4UNo8_y)
+
+---
+
+Goosy is fully open source and built with ❤ by developers for developers.
+We welcome contributions and feedback: [GitHub Repository](https://github.com/Akash-nath29/goosy)
+
+*Built for developers who care about clean, secure, and elegant code. Let Goosy do the heavy lifting while you build the future.*
