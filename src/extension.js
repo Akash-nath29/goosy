@@ -74,6 +74,15 @@ function activate(context) {
     console.log("🚀 Goosy extension activated!");
     const lensProvider = vscode.languages.registerCodeLensProvider("*", new GoosyLensProvider());
     context.subscriptions.push(lensProvider);
+    context.subscriptions.push(vscode.commands.registerCommand("goosy.clearDecorations", () => {
+        const editor = vscode.window.activeTextEditor;
+        if (!editor) {
+            vscode.window.showInformationMessage("Goosy: No active editor.");
+            return;
+        }
+        editor.setDecorations(vulnerabilityDecorationType, []);
+        vscode.window.showInformationMessage("Goosy: Cleared all vulnerability decorations.");
+    }));
     async function analyzeAndDecorate(fullDocument) {
         const editor = vscode.window.activeTextEditor;
         if (!editor) {
