@@ -46,11 +46,11 @@ class GoosyLensProvider {
             command: "goosy.analyzeDocument",
         }));
         lenses.push(new vscode.CodeLens(top, {
-            title: "⚙️ Check Complexity",
+            title: "🧩 Check Complexity",
             command: "goosy.checkComplexitySelection",
         }));
         lenses.push(new vscode.CodeLens(top, {
-            title: "♻️ Refactor Selection",
+            title: "✨ Refactor Selection",
             command: "goosy.refactorSelection",
         }));
         const regex = /^\s*def\s+/;
@@ -58,11 +58,11 @@ class GoosyLensProvider {
             const line = document.lineAt(i);
             if (regex.test(line.text)) {
                 lenses.push(new vscode.CodeLens(line.range, {
-                    title: "♻️ Refactor Function",
+                    title: "✨ Refactor Function",
                     command: "goosy.refactorSelection",
                 }));
                 lenses.push(new vscode.CodeLens(line.range, {
-                    title: "⚙️ Check Function Complexity",
+                    title: "🧩 Check Function Complexity",
                     command: "goosy.checkComplexitySelection",
                 }));
             }
