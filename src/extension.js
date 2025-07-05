@@ -29,11 +29,11 @@ const api_1 = require("./api");
 const vulnerabilityDecorationType = vscode.window.createTextEditorDecorationType({
     backgroundColor: "rgba(255, 0, 0, 0.2)",
     textDecoration: "underline double orange",
-    border: "1px solid orange",
+    border: "1px solid red",
     borderRadius: "4px",
     before: {
         contentText: "⚠ ",
-        color: "orange",
+        color: "red",
         margin: "0 6px 0 0",
     },
 });
@@ -77,7 +77,7 @@ function activate(context) {
     async function analyzeAndDecorate(fullDocument) {
         const editor = vscode.window.activeTextEditor;
         if (!editor) {
-            vscode.window.showInformationMessage("No active editor.");
+            vscode.window.showInformationMessage("Goosy: No active editor.");
             return;
         }
         const document = editor.document;
@@ -85,38 +85,43 @@ function activate(context) {
             ? document.getText()
             : document.getText(editor.selection);
         if (!text.trim()) {
-            vscode.window.showInformationMessage("Nothing to analyze.");
+            vscode.window.showInformationMessage("Goosy: Nothing to analyze.");
             return;
         }
-        vscode.window.showInformationMessage("Running vulnerability check...");
-        const result = await (0, api_1.checkVulnerabilities)(text);
-        if (!result || !Array.isArray(result.vulnerabilities)) {
-            vscode.window.showErrorMessage("Analysis failed or gave invalid response.");
-            return;
-        }
-        if (result.vulnerabilities.length === 0) {
-            vscode.window.showInformationMessage("✅ No severe vulnerabilities found.");
-            editor.setDecorations(vulnerabilityDecorationType, []);
-            return;
-        }
-        const decorations = result.vulnerabilities.map((v) => {
-            const line = Math.max(0, v.line - 1);
-            const lineText = document.lineAt(line).text;
-            return {
-                range: new vscode.Range(line, 0, line, lineText.length),
-                hoverMessage: `${v.severity.toUpperCase()}: ${v.description}`,
-                renderOptions: {
-                    after: {
-                        contentText: `💡 ${v.description}`,
-                        color: "orange",
-                        fontStyle: "italic",
-                        margin: "0 0 0 8px",
+        await vscode.window.withProgress({
+            location: vscode.ProgressLocation.Notification,
+            title: "Goosy: Running vulnerability check...",
+            cancellable: false,
+        }, async () => {
+            const result = await (0, api_1.checkVulnerabilities)(text);
+            if (!result || !Array.isArray(result.vulnerabilities)) {
+                vscode.window.showErrorMessage("Goosy: Analysis failed or gave invalid response.");
+                return;
+            }
+            if (result.vulnerabilities.length === 0) {
+                vscode.window.showInformationMessage("Goosy: ✅ No severe vulnerabilities found.");
+                editor.setDecorations(vulnerabilityDecorationType, []);
+                return;
+            }
+            const decorations = result.vulnerabilities.map((v) => {
+                const line = Math.max(0, v.line - 1);
+                const lineText = document.lineAt(line).text;
+                return {
+                    range: new vscode.Range(line, 0, line, lineText.length),
+                    hoverMessage: `${v.severity.toUpperCase()}: ${v.description}`,
+                    renderOptions: {
+                        after: {
+                            contentText: `💡 ${v.description}`,
+                            color: "red",
+                            fontStyle: "italic",
+                            margin: "0 0 0 8px",
+                        },
                     },
-                },
-            };
+                };
+            });
+            editor.setDecorations(vulnerabilityDecorationType, decorations);
+            vscode.window.showInformationMessage(`Goosy: ⚠️ Found ${result.vulnerabilities.length} vulnerability(s).`);
         });
-        editor.setDecorations(vulnerabilityDecorationType, decorations);
-        vscode.window.showInformationMessage(`⚠️ Found ${result.vulnerabilities.length} vulnerability(s).`);
     }
     context.subscriptions.push(vscode.commands.registerCommand("goosy.analyzeDocument", () => analyzeAndDecorate(true)));
     context.subscriptions.push(vscode.commands.registerCommand("goosy.analyzeSelection", () => analyzeAndDecorate(false)));
@@ -127,13 +132,14 @@ function activate(context) {
         }
         const selection = editor.selection;
         if (selection.isEmpty) {
-            vscode.window.showInformationMessage("Select code to refactor.");
+            vscode.window.showInformationMessage("Goosy: Select code to refactor.");
             return;
         }
+        vscode.window.showInformationMessage("Goosy: Refactoring...");
         const selectedText = editor.document.getText(selection);
         const optimizedCode = await (0, api_1.refactorCode)(selectedText);
         if (!optimizedCode) {
-            vscode.window.showErrorMessage("Refactoring failed.");
+            vscode.window.showErrorMessage("Goosy: Refactoring failed.");
             return;
         }
         const importRegex = /^(import .+|from .+ import .+)$/gm;
@@ -161,16 +167,17 @@ function activate(context) {
         }
         const selection = editor.selection;
         if (selection.isEmpty) {
-            vscode.window.showInformationMessage("Select code to check complexity.");
+            vscode.window.showInformationMessage("Goosy: Select code to check complexity.");
             return;
         }
+        vscode.window.showInformationMessage("Goosy: Checking complexity...");
         const selectedText = editor.document.getText(selection);
         const complexity = await (0, api_1.getComplexity)(selectedText);
         if (!complexity || !complexity.summary) {
-            vscode.window.showErrorMessage("Complexity check failed.");
+            vscode.window.showErrorMessage("Goosy: Complexity check failed.");
             return;
         }
-        vscode.window.showInformationMessage(`📊 Complexity:\n LOC=${complexity.summary.lines_of_code} | Maintainability=${complexity.summary.maintainability}\n Cyclomatic=${complexity.summary.cyclomatic_complexity} | Cognitive=${complexity.summary.cognitive_complexity} | NPath=${complexity.summary.npath_complexity}`);
+        vscode.window.showInformationMessage(`Goosy:  📊 Complexity:\n LOC=${complexity.summary.lines_of_code} | Maintainability=${complexity.summary.maintainability}\n Cyclomatic=${complexity.summary.cyclomatic_complexity} | Cognitive=${complexity.summary.cognitive_complexity} | NPath=${complexity.summary.npath_complexity}`);
     }));
 }
 exports.activate = activate;
