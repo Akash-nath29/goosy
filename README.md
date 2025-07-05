@@ -1,4 +1,4 @@
-# 🪿 Goosy - Your Code's Personal Bodyguard
+# 🪿 Goosy - Make Your Code Production Ready
 
 [![Version](https://img.shields.io/badge/version-1.0.0-blue.svg)]()
 [![License](https://img.shields.io/badge/license-MIT-green.svg)](LICENSE)
@@ -60,9 +60,9 @@ One click and POOF! Your messy code transforms into something so clean, Marie Ko
 2. **Select** the code that's been giving you nightmares 😱
 3. **Press** `Ctrl+Shift+P` and feel the power coursing through your fingertips
 4. **Search** for "Goosy" and pick your poison:
-   - �️ **Analyze Selection** - "CSI: Code Scene Investigation"
-   - 🧮 **Check Complexity** - "Is my code a hot mess? Let's find out!"
-   - � **Refactor Selection** - "Make it pretty, make it fast, make it NOW!"
+   - 🔍 **Analyze Selection** - "CSI: Code Scene Investigation"
+   - 🧩 **Check Complexity** - "Is my code a hot mess? Let's find out!"
+   - ✨ **Refactor Selection** - "Make it pretty, make it fast, make it NOW!"
 5. **Watch** as Goosy works its magic faster than you can say "Stack Overflow"
 
 *Pro Tip: Keep tissues handy - you might cry tears of joy!* 😭✨
@@ -114,7 +114,7 @@ One click and POOF! Your messy code transforms into something so clean, Marie Ko
 
 ---
 
-## � The Fine Print (But Make It Fun!)
+## 📃 License
 
 This masterpiece is licensed under the MIT License - which basically means "use it, love it, but don't blame us if you become too productive and your boss gives you more work!" 😅
 
