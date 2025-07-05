@@ -29,11 +29,11 @@ const api_1 = require("./api");
 const vulnerabilityDecorationType = vscode.window.createTextEditorDecorationType({
     backgroundColor: "rgba(255, 0, 0, 0.2)",
     textDecoration: "underline double orange",
-    border: "1px solid red",
+    border: "1px solid orange",
     borderRadius: "4px",
     before: {
-        contentText: "⚠ ",
-        color: "red",
+        contentText: "🦢 ",
+        color: "orange",
         margin: "0 6px 0 0",
     },
 });
@@ -74,6 +74,15 @@ function activate(context) {
     console.log("🚀 Goosy extension activated!");
     const lensProvider = vscode.languages.registerCodeLensProvider("*", new GoosyLensProvider());
     context.subscriptions.push(lensProvider);
+    context.subscriptions.push(vscode.commands.registerCommand("goosy.clearDecorations", () => {
+        const editor = vscode.window.activeTextEditor;
+        if (!editor) {
+            vscode.window.showInformationMessage("Goosy: No active editor.");
+            return;
+        }
+        editor.setDecorations(vulnerabilityDecorationType, []);
+        vscode.window.showInformationMessage("Goosy: Cleared all vulnerability decorations.");
+    }));
     async function analyzeAndDecorate(fullDocument) {
         const editor = vscode.window.activeTextEditor;
         if (!editor) {
@@ -112,7 +121,7 @@ function activate(context) {
                     renderOptions: {
                         after: {
                             contentText: `💡 ${v.description}`,
-                            color: "red",
+                            color: "orange",
                             fontStyle: "italic",
                             margin: "0 0 0 8px",
                         },
