@@ -6,7 +6,7 @@
 [![Bugs Murdered](https://img.shields.io/badge/bugs%20murdered-∞-red.svg)]()
 [![Coffee Consumed](https://img.shields.io/badge/coffee%20consumed-too%20much-brown.svg)]()
 
-**Write Like a Pro. Debug Like a Detective. Refactor Like a Magician. 🎩✨**
+**Code Smarter. Debug Cleaner. Refactor Faster.**
 
 Meet Goosy, the sassy AI that turns your messy code into production-ready masterpieces! No more crying over spaghetti code - Goosy's got your back (and your bugs' funeral plans ready).
 
@@ -85,7 +85,7 @@ One click and POOF! Your messy code transforms into something so clean, Marie Ko
 
 ---
 
-## � See Goosy in Action (Better Than Netflix!)
+## 🎬 See Goosy in Action (Better Than Netflix!)
 
 **Ready to have your mind blown?** 🤯
 
@@ -129,6 +129,23 @@ Check out the [LICENSE](LICENSE) file for the boring legal stuff.
 - ☕ **Coffee** - The real MVP behind every line of code
 - 🌙 **Insomnia** - Our faithful companion through countless 3 AM debugging sessions
 - Built with ❤️, 😭, and way too much ☕ by the **null0x team**
+
+---
+
+## 🌟 Our Awesome Mentors & Guiding Stars
+
+<div align="center">
+
+*"Behind every great code, there are amazing mentors who believed in the impossible and guided us through the chaos!"*
+
+| <img src="src/images/mentors/narendra_nath_chatterjee.png" width="100" height="100" style="border-radius: 50%;"> | <img src="src/images/mentors/soham_banerjee.png" width="100" height="100" style="border-radius: 50%;"> | <img src="src/images/mentors/imran_roshan.png" width="100" height="100" style="border-radius: 50%;"> | <img src="src/images/mentors/sanglap_mridha.png" width="100" height="100" style="border-radius: 50%;"> | <img src="src/images/mentors/megh_deb.png" width="100" height="100" style="border-radius: 50%;"> |
+|:---:|:---:|:---:|:---:|:---:|
+| **Narendra Nath Chatterjee** | **Soham Banerjee** | **Imran Roshan** | **Sanglap Mridha** | **Megh Deb** |
+| [![LinkedIn](https://img.shields.io/badge/LinkedIn-0077B5?style=flat&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/narendra-nath-chatterjee-8a7651133/) | [![LinkedIn](https://img.shields.io/badge/LinkedIn-0077B5?style=flat&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/soham4abc/) | [![LinkedIn](https://img.shields.io/badge/LinkedIn-0077B5?style=flat&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/imranfosec/) | [![LinkedIn](https://img.shields.io/badge/LinkedIn-0077B5?style=flat&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/sanglapmridha/) | [![LinkedIn](https://img.shields.io/badge/LinkedIn-0077B5?style=flat&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/megh-deb/) |
+
+*These incredible humans shared their wisdom, patience, and probably a few existential crises with us!* 🙏✨
+
+</div>
 
 ---
 
