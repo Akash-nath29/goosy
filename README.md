@@ -14,6 +14,18 @@ Meet Goosy, the sassy AI that turns your messy code into production-ready master
 
 ---
 
+## 📸 See Goosy in Action
+
+<div align="center">
+
+<img src="src/images/demo/demo.jpg" alt="Goosy Demo Screenshot" width="800" style="border-radius: 10px; box-shadow: 0 4px 8px rgba(0,0,0,0.1);">
+
+*Goosy transforming messy code into production-ready masterpieces!* ✨
+
+</div>
+
+---
+
 ## ✨ Why Goosy Will Make You The Office Hero
 
 <table>
@@ -95,7 +107,7 @@ One click and POOF! Your messy code transforms into something so clean, Marie Ko
 
 ---
 
-## 👥 Meet the Code Ninjas Behind the Magic
+## 💻 Meet the Developers Team
 
 <div align="center">
 
