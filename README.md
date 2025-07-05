@@ -1,6 +1,6 @@
 # 🪿 Goosy - Your Intelligent Code Companion
 
-[![Version](https://img.shields.io/badge/version-1.0.0-blue.svg)](https://github.com/your-repo/goosy)
+[![Version](https://img.shields.io/badge/version-1.0.0-blue.svg)]()
 [![License](https://img.shields.io/badge/license-MIT-green.svg)](LICENSE)
 [![VS Code](https://img.shields.io/badge/VS%20Code-1.74+-brightgreen.svg)](https://code.visualstudio.com/)
 
@@ -85,19 +85,13 @@ Make your code more readable and performant without losing the original. Refacto
 
 <div align="center">
 
-| <img src="src/images/devs/rohit.jpg" width="120" height="120" style="border-radius: 50%;"> | <img src="src/images/devs/abhinaba.png" width="120" height="120" style="border-radius: 50%;"> | <img src="src/images/devs/akash.png" width="120" height="120" style="border-radius: 50%;"> | <img src="src/images/devs/ayush.png" width="120" height="120" style="border-radius: 50%;"> |
+| <img src="src/images/devs/akash.png" width="120" height="120" style="border-radius: 50%;"> | <img src="src/images/devs/abhinaba.png" width="120" height="120" style="border-radius: 50%;"> | <img src="src/images/devs/ayush.png" width="120" height="120" style="border-radius: 50%;"> | <img src="src/images/devs/rohit.jpg" width="120" height="120" style="border-radius: 50%;"> |
 |:---:|:---:|:---:|:---:|
-| **Rohit** | **Abhinaba** | **Akash** | **Ayush** |
-| Lead Developer | Full Stack Developer | Backend Developer | Frontend Developer |
-| [![LinkedIn](https://img.shields.io/badge/LinkedIn-0077B5?style=flat&logo=linkedin&logoColor=white)](https://linkedin.com/in/rohit-dev) [![GitHub](https://img.shields.io/badge/GitHub-100000?style=flat&logo=github&logoColor=white)](https://github.com/rohit-dev) | [![LinkedIn](https://img.shields.io/badge/LinkedIn-0077B5?style=flat&logo=linkedin&logoColor=white)](https://linkedin.com/in/abhinaba-dev) [![GitHub](https://img.shields.io/badge/GitHub-100000?style=flat&logo=github&logoColor=white)](https://github.com/abhinaba-dev) | [![LinkedIn](https://img.shields.io/badge/LinkedIn-0077B5?style=flat&logo=linkedin&logoColor=white)](https://linkedin.com/in/akash-dev) [![GitHub](https://img.shields.io/badge/GitHub-100000?style=flat&logo=github&logoColor=white)](https://github.com/akash-dev) | [![LinkedIn](https://img.shields.io/badge/LinkedIn-0077B5?style=flat&logo=linkedin&logoColor=white)](https://linkedin.com/in/ayush-dev) [![GitHub](https://img.shields.io/badge/GitHub-100000?style=flat&logo=github&logoColor=white)](https://github.com/ayush-dev) |
+| **Akash** | **Abhinaba** | **Ayush** | **Rohit** |
+| AI Overlord | Neural Necromancer | Stack Slayer | Code Dictator |
+| [![LinkedIn](https://img.shields.io/badge/LinkedIn-0077B5?style=flat&logo=linkedin&logoColor=white)](https://linkedin.com/in/akash-dev) [![GitHub](https://img.shields.io/badge/GitHub-100000?style=flat&logo=github&logoColor=white)](https://github.com/akash-dev) | [![LinkedIn](https://img.shields.io/badge/LinkedIn-0077B5?style=flat&logo=linkedin&logoColor=white)](https://linkedin.com/in/abhinaba-dev) [![GitHub](https://img.shields.io/badge/GitHub-100000?style=flat&logo=github&logoColor=white)](https://github.com/abhinaba-dev) | [![LinkedIn](https://img.shields.io/badge/LinkedIn-0077B5?style=flat&logo=linkedin&logoColor=white)](https://linkedin.com/in/ayush-dev) [![GitHub](https://img.shields.io/badge/GitHub-100000?style=flat&logo=github&logoColor=white)](https://github.com/ayush-dev) | [![LinkedIn](https://img.shields.io/badge/LinkedIn-0077B5?style=flat&logo=linkedin&logoColor=white)](https://linkedin.com/in/rohit-dev) [![GitHub](https://img.shields.io/badge/GitHub-100000?style=flat&logo=github&logoColor=white)](https://github.com/rohit-dev) |
 
 </div>
-
----
-
-## 🤝 Contributing
-
-We welcome contributions! Please feel free to submit a Pull Request. For major changes, please open an issue first to discuss what you would like to change.
 
 ---
 
@@ -111,14 +105,12 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 
 - Thanks to the VS Code team for providing an excellent extension API
 - Special thanks to our beta testers for their valuable feedback
-- Built with ❤️ by the Goosy team
+- Built with ❤️ by the null0x team
 
 ---
 
 <div align="center">
 
-**⭐ If you find Goosy helpful, please consider giving us a star on GitHub! ⭐**
-
-[![GitHub stars](https://img.shields.io/github/stars/your-repo/goosy.svg?style=social&label=Star)](https://github.com/your-repo/goosy)
+**⭐ If you find Goosy helpful, please leave us a review! ⭐**
 
 </div>
