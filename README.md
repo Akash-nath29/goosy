@@ -1,37 +1,45 @@
-# 🪿 Goosy - Your Intelligent Code Companion
+# 🪿 Goosy - Your Code's Personal Bodyguard
 
 [![Version](https://img.shields.io/badge/version-1.0.0-blue.svg)]()
 [![License](https://img.shields.io/badge/license-MIT-green.svg)](LICENSE)
 [![VS Code](https://img.shields.io/badge/VS%20Code-1.74+-brightgreen.svg)](https://code.visualstudio.com/)
+[![Bugs Murdered](https://img.shields.io/badge/bugs%20murdered-∞-red.svg)]()
+[![Coffee Consumed](https://img.shields.io/badge/coffee%20consumed-too%20much-brown.svg)]()
 
-**Code Smarter. Debug Cleaner. Refactor Faster.**
+**Write Like a Pro. Debug Like a Detective. Refactor Like a Magician. 🎩✨**
 
-Goosy is your intelligent coding companion for **Python**, **JavaScript**, and **TypeScript**. From uncovering hidden vulnerabilities to refactoring clunky code, Goosy brings security, clarity, and speed to your Visual Studio Code workflow.
+Meet Goosy, the sassy AI that turns your messy code into production-ready masterpieces! No more crying over spaghetti code - Goosy's got your back (and your bugs' funeral plans ready).
 
-> 🚀 **Transform your development experience with AI-powered code analysis and instant refactoring capabilities!**
+> 🚀 **Warning: May cause sudden bursts of confidence and an irresistible urge to show off your clean code!**
 
 ---
 
-## ✨ Key Features
+## ✨ Why Goosy Will Make You The Office Hero
 
 <table>
 <tr>
 <td width="33%">
 
-### 🔍 **Instant Vulnerability Detection**
-Quickly scan for security flaws and risky patterns. Goosy highlights issues and offers detailed explanations, so you're always aware of potential security risks.
+### �️ **Bug Detective Mode**
+Goosy sniffs out vulnerabilities like a bloodhound with a computer science degree. Your security flaws don't stand a chance against our AI Sherlock Holmes!
+
+*"Elementary, my dear Watson... your SQL injection is showing."* 🔍
 
 </td>
 <td width="33%">
 
-### 📊 **Code Complexity Insights**
-Select any block of code to assess its maintainability. Goosy helps you identify complex functions and keeps your codebase clean and readable.
+### 🧮 **Complexity Killer**
+Select any code block and watch Goosy judge it harder than Gordon Ramsay judges a burnt soufflé. Get instant feedback on whether your code is "beautiful" or "an absolute disaster."
+
+*"This function is more complex than my relationship status!"* 📊
 
 </td>
 <td width="33%">
 
-### 🧠 **One-Click Refactoring**
-Make your code more readable and performant without losing the original. Refactored versions appear above, with the original preserved as comments below.
+### � **Refactoring Wizard**
+One click and POOF! Your messy code transforms into something so clean, Marie Kondo would weep tears of joy. Original code preserved as comments (because we're not monsters).
+
+*"Abracadabra! Your code no longer looks like it was written by caffeinated squirrels!"* 🎩
 
 </td>
 </tr>
@@ -39,78 +47,97 @@ Make your code more readable and performant without losing the original. Refacto
 
 ---
 
-## 🚀 Quick Start
+## 🚀 How to Become a Code Wizard (In 5 Easy Steps!)
 
-### Installation
-1. Open VS Code
-2. Go to Extensions (Ctrl+Shift+X)
-3. Search for "Goosy"
-4. Click Install
+### 🎯 Installation (AKA "Summoning Goosy")
+1. Open VS Code (if it's not already glued to your screen)
+2. Hit `Ctrl+Shift+X` like you're casting a spell ✨
+3. Type "Goosy" (not "Goosey" - we're not a waterfowl!)
+4. Smash that Install button harder than you hit snooze on Monday morning
 
-### Usage
-1. **Open** any Python, JavaScript, or TypeScript file in VS Code
-2. **Select** the code you want to analyze or refactor
-3. **Press** `Ctrl+Shift+P` (or `Cmd+Shift+P` on Mac) to open Command Palette
-4. **Search** for "Goosy" and choose from:
-   - 🔍 **Analyze Selection** - Detect vulnerabilities and code issues
-   - 📊 **Check Complexity** - Assess code maintainability 
-   - 🧠 **Refactor Selection** - Improve code quality instantly
-5. **See** instant results within your editor!
+### 🎮 Usage (AKA "Unleashing the Magic")
+1. **Open** any Python, JavaScript, or TypeScript file (we speak fluent nerd)
+2. **Select** the code that's been giving you nightmares 😱
+3. **Press** `Ctrl+Shift+P` and feel the power coursing through your fingertips
+4. **Search** for "Goosy" and pick your poison:
+   - �️ **Analyze Selection** - "CSI: Code Scene Investigation"
+   - 🧮 **Check Complexity** - "Is my code a hot mess? Let's find out!"
+   - � **Refactor Selection** - "Make it pretty, make it fast, make it NOW!"
+5. **Watch** as Goosy works its magic faster than you can say "Stack Overflow"
+
+*Pro Tip: Keep tissues handy - you might cry tears of joy!* 😭✨
 
 ---
 
-## 💻 Language Support
+## 💻 Languages We Speak (Fluently, We Promise!)
 
 <div align="center">
 
-| Language | Status | Features |
-|----------|--------|----------|
-| 🐍 **Python** | ✅ Full Support | Vulnerability Detection, Complexity Analysis, Refactoring |
-| 🟨 **JavaScript** | ✅ Full Support | Vulnerability Detection, Complexity Analysis, Refactoring |
-| 🔷 **TypeScript** | ✅ Full Support | Vulnerability Detection, Complexity Analysis, Refactoring |
+| <img src="src/images/lang_logos/python.png" width="50" height="50"> **Python** | <img src="src/images/lang_logos/js.png" width="50" height="50"> **JavaScript** | <img src="src/images/lang_logos/ts.png" width="50" height="50"> **TypeScript** |
+|:---:|:---:|:---:|
+| 🐍 Ssssseriously Good | 🟨 Vanilla & Spicy | 🔷 Typed to Perfection |
+| ✅ **VIP Treatment** | ✅ **VIP Treatment** | ✅ **VIP Treatment** |
+| Bug Hunting<br>Complexity Shaming<br>Code Beautification | Bug Hunting<br>Complexity Shaming<br>Code Beautification | Bug Hunting<br>Complexity Shaming<br>Code Beautification |
+
+*Coming Soon: We're learning C++ (send help and energy drinks!)* ☕
 
 </div>
 
 ---
 
-## 🎥 Demo & Preview
+## � See Goosy in Action (Better Than Netflix!)
 
-**Curious how it works?**
+**Ready to have your mind blown?** 🤯
 
-[![Watch Goosy in Action](https://img.shields.io/badge/▶️%20Watch%20Demo-YouTube-red?style=for-the-badge)](https://youtu.be/T_8CScm3SBk?si=M3Vp3SYvG4UNo8_y)
+[![Watch Goosy Slay Code](https://img.shields.io/badge/🍿%20WATCH%20THE%20MAGIC-YouTube-red?style=for-the-badge)](https://youtu.be/T_8CScm3SBk?si=M3Vp3SYvG4UNo8_y)
+
+*Warning: May cause uncontrollable excitement and sudden urges to refactor everything in sight!*
 
 ---
 
-## 👥 Meet the Development Team
+## 👥 Meet the Code Ninjas Behind the Magic
 
 <div align="center">
+
+*"They came, they coded, they conquered... and somehow survived on nothing but caffeine and pure determination."*
 
 | <img src="src/images/devs/akash.png" width="120" height="120" style="border-radius: 50%;"> | <img src="src/images/devs/abhinaba.png" width="120" height="120" style="border-radius: 50%;"> | <img src="src/images/devs/ayush.png" width="120" height="120" style="border-radius: 50%;"> | <img src="src/images/devs/rohit.jpg" width="120" height="120" style="border-radius: 50%;"> |
 |:---:|:---:|:---:|:---:|
 | **Akash** | **Abhinaba** | **Ayush** | **Rohit** |
 | AI Overlord | Neural Necromancer | Stack Slayer | Code Dictator |
+| *"I speak Robot"* 🤖 | *"I raise the dead... bugs"* 💀 | *"Full Stack? More like Full Snack!"* 🍕 | *"Coffee is my programming language"* ☕ |
 | [![LinkedIn](https://img.shields.io/badge/LinkedIn-0077B5?style=flat&logo=linkedin&logoColor=white)](https://linkedin.com/in/akash-dev) [![GitHub](https://img.shields.io/badge/GitHub-100000?style=flat&logo=github&logoColor=white)](https://github.com/akash-dev) | [![LinkedIn](https://img.shields.io/badge/LinkedIn-0077B5?style=flat&logo=linkedin&logoColor=white)](https://linkedin.com/in/abhinaba-dev) [![GitHub](https://img.shields.io/badge/GitHub-100000?style=flat&logo=github&logoColor=white)](https://github.com/abhinaba-dev) | [![LinkedIn](https://img.shields.io/badge/LinkedIn-0077B5?style=flat&logo=linkedin&logoColor=white)](https://linkedin.com/in/ayush-dev) [![GitHub](https://img.shields.io/badge/GitHub-100000?style=flat&logo=github&logoColor=white)](https://github.com/ayush-dev) | [![LinkedIn](https://img.shields.io/badge/LinkedIn-0077B5?style=flat&logo=linkedin&logoColor=white)](https://linkedin.com/in/rohit-dev) [![GitHub](https://img.shields.io/badge/GitHub-100000?style=flat&logo=github&logoColor=white)](https://github.com/rohit-dev) |
+
+*These legends turned their late-night coding sessions and existential dread into pure magic!* ✨
 
 </div>
 
 ---
 
-## 📄 License
+## � The Fine Print (But Make It Fun!)
 
-This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
+This masterpiece is licensed under the MIT License - which basically means "use it, love it, but don't blame us if you become too productive and your boss gives you more work!" 😅
+
+Check out the [LICENSE](LICENSE) file for the boring legal stuff.
 
 ---
 
-## 🙏 Acknowledgments
+## 🙏 Shoutouts & High Fives
 
-- Thanks to the VS Code team for providing an excellent extension API
-- Special thanks to our beta testers for their valuable feedback
-- Built with ❤️ by the null0x team
+- 👏 **VS Code Team** - For creating the playground where our dreams come true
+- 🧪 **Beta Testers** - The brave souls who clicked on our early builds without crying
+- ☕ **Coffee** - The real MVP behind every line of code
+- 🌙 **Insomnia** - Our faithful companion through countless 3 AM debugging sessions
+- Built with ❤️, 😭, and way too much ☕ by the **null0x team**
 
 ---
 
 <div align="center">
 
-**⭐ If you find Goosy helpful, please leave us a review! ⭐**
+**🌟 IF GOOSY MADE YOUR DAY BETTER, SPREAD THE LOVE! 🌟**
+
+*Leave us a review and make our caffeine-addicted hearts happy!* ☕💖
+
+**P.S.** - *If Goosy doesn't make your code at least 69% more awesome, you probably need more coffee!* ☕😉
 
 </div>
